@@ -1,0 +1,135 @@
+body {
+    font-family: 'Roboto', serif;
+    font-weight: 300;
+    font-size: 16px;
+    height: 100%;
+    background-image: url("heroimage_resize.png");
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
+    background-color: black;
+  }
+  
+div.musicbutton {
+  float: left;
+
+
+}
+div.shop {
+  float: right;
+  
+
+}
+
+/* KEYFRAMES FOR ANIMATION */
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-moz-keyframes fadein { /* Firefox */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-o-keyframes fadein { /* Opera */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+
+
+
+div.hero div.centered {
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+      
+    margin-top: -100px;
+    font-family: 'Playfair Display';
+    font-size: 5em;
+    float: center;
+    color: #f7ed41;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.2px;
+    vertical-align: middle;
+    text-align: center;
+    animation: fadein 3.3s;
+    -moz-animation: fadein 3.3s; /* Firefox */
+    -webkit-animation: fadein 3.3s; /* Safari and Chrome */
+    -o-animation: fadein 3.3s; /* Opera */
+    animation-delay:  2s;
+    -moz-animation-delay:  2s;
+    -webkit-animation-delay:  2s;
+    -o-animation-delay:  2s; 
+}
+
+div.social {
+  display:inline-block;
+  widows: 200px;
+  padding: 50px;
+  margin:100px;
+}
+div.video {
+  padding: 300px;
+  background-color: #DFCFFD;
+
+}
+div.music {
+  padding: 200px;
+  box-align: center;
+  background-color: #FBF2C0;
+
+div.music section{
+
+
+
+ }
+
+}
+div.tour {
+  padding: 400px;
+  background-color: #CA907E;
+}
+  div.tour h1{ 
+    vertical-align: text-bottom;
+    text-align: center;
+    font-family: 'Playfair Display';
+
+  }
+  div.tour h2{
+    vertical-align: text-bottom;
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+
+  }
+div.mpix {
+  padding: 300px;
+  background-color: #FFFFFF;
+}
+
+/*end*/
+
